@@ -5,7 +5,7 @@ FROM node:14
 WORKDIR /app
 
 # Copy package.json and package-lock.json to the working directory
-COPY client/package*.json ./client/
+COPY client/package*.json ./client/***
 COPY server/package*.json ./server/
 
 # Install client and server dependencies
